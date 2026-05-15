@@ -25,4 +25,31 @@ export default defineNuxtConfig({
   //   },
   //   globalMiddleware: true,
   // },
+
+  ssr: false,
+  nitro: {
+    preset: "static", // generate เป็น static file
+  },
+  app: {
+    // head: {
+    //   title: "51_amleadercall",
+    //   meta: [
+    //     { name: "viewport", content: "width=device-width, initial-scale=1" },
+    //     {
+    //       name: "description",
+    //       content: "51_amleadercall",
+    //     },
+    //   ],
+    //   link: [
+    //     {
+    //       rel: "icon",
+    //       type: "image/svg+xml",
+    //       href: "Leader Call AM.svg",
+    //     },
+    //   ],
+    // },
+    baseURL: "/52_feedbacksys/52_feedbacksys_F/",
+    buildAssetsDir: "_nuxt/", // โฟลเดอร์เก็บ assets
+    cdnURL: "",
+  },
 });
