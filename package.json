@@ -1,0 +1,25 @@
+{
+  "name": "SP_commentsystem_web",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^10.3.0",
+    "@tailwindcss/vite": "^4.2.4",
+    "axios": "^1.16.0",
+    "dayjs": "^1.11.20",
+    "lucide-vue-next": "^1.0.0",
+    "nuxt": "^4.4.4",
+    "nuxt-auth-sanctum": "^3.0.0",
+    "sweetalert2": "^11.26.24",
+    "tailwindcss": "^4.2.4",
+    "vue": "^3.5.33",
+    "vue-router": "^5.0.6"
+  }
+}
